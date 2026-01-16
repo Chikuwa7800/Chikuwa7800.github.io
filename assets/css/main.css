@@ -29,6 +29,11 @@ body {
     justify-content: left;
     width: 100px;
     text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: x-large;
+    border-image: round;
+    border-radius: 3px;
+    border-color:black;
 }
 
 .header-menu ul{
