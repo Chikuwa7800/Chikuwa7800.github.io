@@ -6,18 +6,20 @@ body {
 .body{
     margin: auto;
 }
-.footer {
+.footer{
     background-color: rgb(178, 178, 178);
     height: 200px;
     width: 100%;
 }
-.header {
+.header{
     background-color: rgb(192, 218, 218);
     width: 100%;
-    height:fit-content;
-    position: fixed;
+    height:50px;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+}
+.lang{
+    text-align: right;
 }
