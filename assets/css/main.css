@@ -61,7 +61,6 @@ footer {
 }
 
 .header-menu ul{
-    width:75px;
     display: flex;
     margin-left: auto;
 }
@@ -73,7 +72,7 @@ footer {
 .header-button{
     display: block;
     margin-left: 20px;
-    width: 55px;
+    width: 57px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     font-size: x-large;
