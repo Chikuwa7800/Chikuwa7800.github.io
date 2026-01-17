@@ -87,25 +87,25 @@ footer {
 }
 
 .en-trans:hover{
-    mask-image: url(img/button/002_1.png);
+    content: url(img/button/002_1.png);
 }
 
 .en-trans:active{
-    mask-image: url(img/button/002_2.png);
+    content: url(img/button/002_2.png);
 }
 
 .ja-trans:hover{
-    mask-image: url(img/button/001_1.png);
+    content: url(img/button/001_1.png);
 }
 
 .ja-trans:active{
-    mask-image: url(img/button/001_2.png);
+    content: url(img/button/001_2.png);
 }
 
 .contact-trans:hover{
-    mask-image: url(img/button/003_1.png);
+    content: url(img/button/003_1.png);
 }
 
 .contact-trans:active{
-    mask-image: url(img/button/003_2.png);
+    content: url(img/button/003_2.png);
 }
