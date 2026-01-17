@@ -60,19 +60,19 @@ footer {
     border-color:black;
 }
 
-.header-menu{
-    margin-left: 80%;
+.header-menu ul{
     display: flex;
     flex-direction: row;
+    width:75px;
+    margin-left: 80%;
     gap: 25px;
 }
 
-.header-menu img{
-    width:75px;
-    margin-left: 80%;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
+.header-menu ul li{
+    list-style: none;
+}
+
+.header-menu-img{
     display: block;
 }
 
