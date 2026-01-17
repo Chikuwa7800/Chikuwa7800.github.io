@@ -14,9 +14,11 @@ body {
 }
 
 .footer{
-    background-color: rgb(178, 178, 178);
+    padding: 2rem;
+    background: rgb(178, 178, 178);
     height:max-content;
     width: 100%;
+    border-top: 3px solid rgb(43, 43, 43);
 }
 
 .header-inside{
