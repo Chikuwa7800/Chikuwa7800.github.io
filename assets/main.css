@@ -133,6 +133,14 @@ blockquote {
     list-style: none;
 }
 
-.logo{
-    width: 50px;
+.footer-logo{
+    display: block;
+    margin-left: 20px;
+    width: 75px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: x-large;
+    border-image: round;
+    border-radius: 3px;
+    border-color:black;
 }
