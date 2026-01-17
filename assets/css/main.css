@@ -65,13 +65,12 @@ footer {
 }
 
 .header-menu ul li{
-    margin-top: 5px;
-    margin-right:75px;
     list-style: none;
 }
 
-.menu-type1 {
+.header-menu-img{
     width:75px;
+    margin-right:75px;
     display: block;
 }
 
