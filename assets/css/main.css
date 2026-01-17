@@ -25,6 +25,7 @@ footer {
     flex-direction: column;
     border-top: 3px solid rgb(43, 43, 43);
     font-family:Arial, Helvetica, sans-serif;
+    flex: 1;
 }
 
 .body{
@@ -59,6 +60,6 @@ footer {
 }
 
 .header-menu ul li{
-    margin-left:75px;
+    margin-left:250px;
     list-style: none;
 }
