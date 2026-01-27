@@ -212,10 +212,12 @@ blockquote {
     grid-gap: 24px;
     grid-template-columns: repeat(6, 280px);
     list-style-type: none;
+    width: 800px;
 }
 
 .listing-img{
     width: 600px;
+    align-content: center;
 }
 
 .listing-menu ul{
@@ -223,6 +225,7 @@ blockquote {
     margin: 0 !important;
     padding: 0 !important;
     grid-template-columns: repeat(6, minmax(280px, 348px));
+    width: 800px;
 }
 
 .listing-menu ul li{
@@ -237,4 +240,5 @@ blockquote {
 
 .listing-container{
     min-height: unset;
+    align-content: center;
 }
