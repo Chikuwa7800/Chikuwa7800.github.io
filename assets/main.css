@@ -236,6 +236,5 @@ blockquote {
 }
 
 .listing-container{
-    min-height: unset;
     align-content: center;
 }
