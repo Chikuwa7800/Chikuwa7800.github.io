@@ -207,7 +207,7 @@ blockquote {
 
 .listing-menu{
     display: grid;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
     grid-template-columns: repeat(3, auto);
     gap: 24px;
 }
