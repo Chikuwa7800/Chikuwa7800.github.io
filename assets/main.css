@@ -145,17 +145,17 @@ blockquote {
     border-color:black;
 }
 
-.side-menu ul{
+.horizontal-menu ul{
     display: flex;
     margin-right: 45px;
     justify-content: flex-end;
 }
 
-.side-menu ul li{
+.horizontal-menu ul li{
     list-style: none;
 }
 
-.side-menu-button{
+.horizontal-menu-button{
     display: block;
     margin-right: 20px;
     width: 200px;
@@ -181,4 +181,26 @@ blockquote {
 
 .about-en-trans:active{
     content: url("img/button/005_2.png");
+}
+
+.vartical-menu ul{
+    display: flex;
+    margin-right: 45px;
+    justify-content: flex-end;
+}
+
+.vartical-menu ul li{
+    list-style: none;
+}
+
+.vartical-menu-button{
+    display: block;
+    margin-right: 20px;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: x-large;
+    border-image: round;
+    border-radius: 3px;
+    border-color:black;
 }
