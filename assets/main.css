@@ -44,6 +44,10 @@ blockquote {
     background-color: rgb(200, 202, 200);
 }
 
+a {
+  text-decoration: none;
+}
+
 .body{
     color: rgb(43, 43, 43);
 }
@@ -240,28 +244,27 @@ blockquote {
     gap: 24px;
     width: 800px;
     border: black 2px solid;
-    background-color: aliceblue;
+    background-color: rgb(236, 236, 236);
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
 .listing-menu ul li:hover{
-    background-color: lightsteelblue;
+    background-color: rgb(184, 184, 184);
 }
 
 .listing-menu ul li:active{
-    background-color: darkgray;
+    background-color: rgb(128, 128, 128);
 }
 
 .listing-container{
-    text-decoration: darkolivegreen underline;
+    text-decoration: underline;
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
 }
 
 .listing-posteddate{
-    text-decoration: none;
     min-height: unset;
     text-align: left;
     color: rgb(0, 0, 0);
