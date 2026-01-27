@@ -206,18 +206,25 @@ blockquote {
 }
 
 .listing-menu{
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    grid-auto-flow: column;
     grid-template-columns: repeat(3, auto);
     gap: 24px;
-    width: auto;
-    border: black 2px solid;
-    padding: 25px;
 }
 
 .listing-img{
     align-content: center;
     width: auto;
+}
+
+.listing-menu ul li{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, auto);
+    gap: 24px;
+    width: auto;
+    border: black 2px solid;
+    padding: 25px;
 }
 
 .listing-container{
