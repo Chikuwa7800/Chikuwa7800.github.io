@@ -130,12 +130,12 @@ a {
 
 .footer-menu ul{
     display: flex;
-    margin-right: 100px;
     justify-content: flex-end;
 }
 
 .footer-menu ul li{
     list-style: none;
+    margin-right: 100px;
 }
 
 .footer-logo{
