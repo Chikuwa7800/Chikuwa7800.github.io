@@ -211,11 +211,11 @@ blockquote {
     grid-auto-flow: column;
     grid-gap: 24px;
     list-style-type: none;
-    width: 800px;
+    width: 200px;
 }
 
 .listing-img{
-    width: 300px !important;
+    width: 100px !important;
     align-items: end !important;
 }
 
@@ -223,7 +223,7 @@ blockquote {
     grid-auto-flow: column;
     margin: 0;
     padding: 25px;
-    width: 800px;
+    width: 200px;
 }
 
 .listing-menu ul li{
