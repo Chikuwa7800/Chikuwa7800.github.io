@@ -230,7 +230,7 @@ blockquote {
     grid-auto-flow: row;
     grid-template-columns: repeat(3, auto);
     gap: 24px;
-    width: auto;
+    width: 800px;
     border: black 2px solid;
     padding: 25px;
 }
