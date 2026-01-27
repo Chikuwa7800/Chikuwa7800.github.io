@@ -254,8 +254,15 @@ blockquote {
 }
 
 .listing-container{
-    text-decoration-line: none;
+    text-decoration: darkolivegreen underline;
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
+}
+
+.listing-posteddate{
+    text-decoration: none;
+    min-height: unset;
+    text-align: left;
+    color: rgb(0, 0, 0);
 }
