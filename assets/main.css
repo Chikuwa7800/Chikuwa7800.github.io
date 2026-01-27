@@ -236,8 +236,7 @@ blockquote {
     grid-auto-flow: row;
     gap: 24px;
     width: 800px;
-    border: black 2px double;
-    padding: 25px;
+    border: black 2px solid;
     margin-top: 25px;
 }
 
