@@ -207,27 +207,29 @@ blockquote {
 
 .listing-menu{
     display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(3, auto);
-    gap: 24px;
+    margin: 40px auto !important;
+    width: 720px;
+    border: black 2px solid;
+    padding: 25px;
+    grid-gap: 24px;
+    grid-template-columns: repeat(6, 280px);
+    list-style-type: none;
 }
 
 .listing-img{
-    align-content: center;
-    width: 250px;
+    width: 600px;
 }
 
-.listing-menu-ul{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(3, auto);
-    gap: 24px;
-    width: 420px;
-    border: black 2px solid;
-    padding: 25px;
+.listing-menu ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    grid-template-columns: repeat(6, minmax(280px, 348px));
+}
+
+.listing-menu ul li{
+    list-style: none;
 }
 
 .listing-container{
-    align-content: center;
     min-height: unset;
 }
