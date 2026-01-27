@@ -215,8 +215,8 @@ blockquote {
 }
 
 .listing-img{
-    width: 300px;
-    align-items: end;
+    width: 300px !important;
+    align-items: end !important;
 }
 
 .listing-menu ul{
