@@ -144,3 +144,41 @@ blockquote {
     border-radius: 3px;
     border-color:black;
 }
+
+.side-menu ul{
+    display: flex;
+    margin-right: 45px;
+    justify-content: flex-end;
+}
+
+.side-menu ul li{
+    list-style: none;
+}
+
+.side-menu-button{
+    display: block;
+    margin-left: 20px;
+    width: 125px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: x-large;
+    border-image: round;
+    border-radius: 3px;
+    border-color:black;
+}
+
+.about-ja-trans:hover{
+    content: url("img/button/004_1.png");
+}
+
+.about-ja-trans:active{
+    content: url("img/button/004_2.png");
+}
+
+.about-en-trans:hover{
+    content: url("img/button/005_1.png");
+}
+
+.about-en-trans:active{
+    content: url("img/button/005_2.png");
+}
