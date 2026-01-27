@@ -82,7 +82,7 @@ a {
 
 .header-button{
     display: flex;
-    width: 75px;
+    height: 75px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     font-size: x-large;
