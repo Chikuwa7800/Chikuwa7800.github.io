@@ -217,10 +217,12 @@ blockquote {
 }
 
 .listing-img{
-    width: fit-content;
+    width: 800px;
+    height:500px;
     margin-left: auto;
     margin-right: auto;
     align-content:center;
+    object-fit: cover;
 }
 
 .listing-menu ul{
@@ -243,6 +245,7 @@ blockquote {
 }
 
 .listing-container{
+    text-decoration: none;
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
