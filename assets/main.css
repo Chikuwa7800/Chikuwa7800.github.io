@@ -218,6 +218,10 @@ blockquote {
 }
 
 .listing-menu ul li{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, auto);
+    gap: 24px;
     width: 420px;
     border: black 2px solid;
     padding: 25px;
