@@ -209,9 +209,6 @@ blockquote {
     display: grid;
     margin: 40px auto !important;
     grid-auto-flow: column;
-    width: 720px;
-    border: black 2px solid;
-    padding: 25px;
     grid-gap: 24px;
     grid-template-columns: repeat(6, 280px);
     list-style-type: none;
@@ -229,6 +226,9 @@ blockquote {
 }
 
 .listing-menu ul li{
+    width: 720px;
+    border: black 2px solid;
+    padding: 25px;
     list-style: none;
 }
 
